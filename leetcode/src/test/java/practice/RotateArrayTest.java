@@ -8,13 +8,13 @@ import org.junit.Test;
 /**
  * Unit test for RotateMatrix.
  */
-public class RotateMatrixTest {
+public class RotateArrayTest {
 
-    RotateMatrix rotator;
+    RotateArray rotator;
 
     @Before
     public void setUp() {
-        rotator = new RotateMatrix();
+        rotator = new RotateArray();
     }
 
     @Test
@@ -32,6 +32,15 @@ public class RotateMatrixTest {
         int[] testArr = { 7, 1, 2, 3, 4, 5, 6 };
         rotator.rotate(testArr, 10000);
         int[] expected = { 3, 4, 5, 6, 7, 1, 2 };
+        assertArrayEquals(expected, testArr);
+    }
+
+    @Test
+    public void rotateZeroSteps() {
+
+        int[] testArr = { 7, 1, 2, 3, 4, 5, 6 };
+        rotator.rotate(testArr, 0);
+        int[] expected = { 7, 1, 2, 3, 4, 5, 6 };
         assertArrayEquals(expected, testArr);
     }
 }
