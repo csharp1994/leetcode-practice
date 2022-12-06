@@ -1,7 +1,9 @@
 # leetcode-practice
+
 Leetcode solutions and test cases
 
-TODO: 
+TODO:
 
-Code Quality Scanning Tool
+Setup Code Quality Scanning Tools
+
 CI Pipeline
