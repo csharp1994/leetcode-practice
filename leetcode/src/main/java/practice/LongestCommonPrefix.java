@@ -1,7 +1,18 @@
 package practice;
 
+/**
+ * Find the longest common prefix string amongst an array of strings
+ * 
+ * Example:
+ * Input: strs = ["flower","flow","flight"]
+ * Output: "fl"
+ */
 public class LongestCommonPrefix {
 
+    /**
+     * @param strs An array of Strings
+     * @return The longest common prefix string amongst the input array
+     */
     public String getLongestCommonPrefix(String[] strs) {
 
         if (strs == null || strs.length == 0) {
