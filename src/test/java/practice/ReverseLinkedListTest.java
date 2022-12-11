@@ -1,10 +1,6 @@
 package practice;
 
-import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
-
-import java.util.Arrays;
-import java.util.List;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -13,7 +9,7 @@ import helpers.LinkedList;
 import helpers.LinkedList.Node;
 
 /**
- * Unit test for Rotate2DArray.
+ * Unit test for Rotate2DArray.java
  */
 public class ReverseLinkedListTest {
 
