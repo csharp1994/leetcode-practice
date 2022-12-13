@@ -6,7 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import helpers.LinkedList;
-import helpers.LinkedList.Node;
+import helpers.Node;
 
 /**
  * Unit test for Rotate2DArray.java

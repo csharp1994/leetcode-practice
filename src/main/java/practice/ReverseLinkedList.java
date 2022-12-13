@@ -1,6 +1,6 @@
 package practice;
 
-import helpers.LinkedList.Node;
+import helpers.Node;
 
 /**
  * Given the head of singly linked list, reverse the list, and return the

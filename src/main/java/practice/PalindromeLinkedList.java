@@ -2,7 +2,7 @@ package practice;
 
 import java.util.Stack;
 
-import helpers.LinkedList.Node;
+import helpers.Node;
 
 /**
  * Given the head of a singly linked lsit, return true if it a palindrome or
